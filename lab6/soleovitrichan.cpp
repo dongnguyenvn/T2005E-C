@@ -11,7 +11,7 @@ int main(){
 		printf("nhap gia tri so %d :",i+1);
 		scanf("%d",&a[i]);
 	}
-	for(int i=0;i<n;i++){
+	for(int i=1;i<n;i++){
 		if(i%2==0 && a[i]%2!=0){
 			socacsole++;
 			sum+=a[i];
